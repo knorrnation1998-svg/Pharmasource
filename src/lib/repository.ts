@@ -55,3 +55,10 @@ export const repository = {
     // No-op for mock storage
   }
 };
+
+/**
+ * Standalone export to support pages importing loadProductsFromCsv directly
+ */
+export async function loadProductsFromCsv(): Promise<Product[]> {
+  return repository.listProducts();
+}
