@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --rule: 1px solid theme("colors.manifest.100");
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-sterile text-manifest-800 font-sans antialiased;
+    font-feature-settings: "kern", "liga";
+  }
+
+  /* Lot numbers, HS codes and quantities align in columns. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-phial-500 ring-offset-2 ring-offset-sterile;
+  }
+
+  ::selection {
+    @apply bg-phial-200 text-manifest-900;
+  }
+}
+
+@layer components {
+  /* The recurring structural motif: a ruled manifest sheet. */
+  .sheet {
+    @apply border border-manifest-100 bg-white rounded-sheet;
+  }
+
+  .sheet-row {
+    @apply border-t border-manifest-100 first:border-t-0;
+  }
+
+  .field {
+    @apply w-full rounded-sheet border border-manifest-200 bg-white px-3 py-2
+           text-sm text-manifest-800 placeholder:text-manifest-400
+           focus:border-phial-500 focus:outline-none focus:ring-1 focus:ring-phial-500;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-manifest-600 mb-1.5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

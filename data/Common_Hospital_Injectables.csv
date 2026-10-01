@@ -1,0 +1,175 @@
+Drug_Name,Generic_Name,Composition,Form,Strength_Pack,Approx_Price_USD_Range,Category
+Amoxil Injection,Amoxicillin,Amoxicillin sodium,Vial,500 mg / 1 g,$2 – $8,Antibiotic
+Augmentin Injection,Amoxicillin + Clavulanic acid,Amoxicillin + Clavulanate,Vial,1.2 g,$4 – $12,Antibiotic
+Zosyn / Tazocin,Piperacillin + Tazobactam,Piperacillin + Tazobactam,Vial,4.5 g,$8 – $25,Antibiotic
+Rocephin,Ceftriaxone,Ceftriaxone sodium,Vial,1 g / 2 g,$3 – $15,Antibiotic
+Claforan,Cefotaxime,Cefotaxime sodium,Vial,1 g,$3 – $12,Antibiotic
+Fortum,Ceftazidime,Ceftazidime,Vial,1 g / 2 g,$5 – $18,Antibiotic
+Maxipime,Cefepime,Cefepime hydrochloride,Vial,1 g / 2 g,$6 – $20,Antibiotic
+Meronem,Meropenem,Meropenem,Vial,500 mg / 1 g,$10 – $35,Antibiotic
+Invanz,Ertapenem,Ertapenem,Vial,1 g,$25 – $60,Antibiotic
+Tienam,Imipenem + Cilastatin,Imipenem + Cilastatin,Vial,500 mg,$12 – $40,Antibiotic
+Vancomycin,Vancomycin,Vancomycin hydrochloride,Vial,500 mg / 1 g,$5 – $20,Antibiotic
+Cubicin,Daptomycin,Daptomycin,Vial,350 mg / 500 mg,$80 – $200,Antibiotic
+Zyvox,Linezolid,Linezolid,Vial / Bag,600 mg,$40 – $120,Antibiotic
+Tygacil,Tigecycline,Tigecycline,Vial,50 mg,$50 – $150,Antibiotic
+Colistin / Colomycin,Colistin,Colistimethate sodium,Vial,1–2 million IU,$15 – $50,Antibiotic
+Gentamicin,Gentamicin,Gentamicin sulfate,Ampoule / Vial,40 mg / 80 mg,$1 – $5,Antibiotic
+Amikacin,Amikacin,Amikacin sulfate,Vial,250 mg / 500 mg,$3 – $12,Antibiotic
+Tobramycin,Tobramycin,Tobramycin sulfate,Vial,40 mg / 80 mg,$4 – $15,Antibiotic
+Metronidazole IV,Metronidazole,Metronidazole,Bag / Bottle,500 mg / 100 mL,$2 – $8,Antibiotic
+Flagyl Injection,Metronidazole,Metronidazole,Vial,500 mg,$2 – $7,Antibiotic
+Ciprofloxacin IV,Ciprofloxacin,Ciprofloxacin,Bag,200 mg / 400 mg,$3 – $12,Antibiotic
+Levofloxacin IV,Levofloxacin,Levofloxacin,Bag,500 mg / 750 mg,$4 – $15,Antibiotic
+Azithromycin IV,Azithromycin,Azithromycin,Vial,500 mg,$8 – $25,Antibiotic
+Clarithromycin IV,Clarithromycin,Clarithromycin,Vial,500 mg,$10 – $30,Antibiotic
+Erythromycin IV,Erythromycin,Erythromycin lactobionate,Vial,500 mg / 1 g,$5 – $18,Antibiotic
+Clindamycin Injection,Clindamycin,Clindamycin phosphate,Ampoule / Vial,300 mg / 600 mg,$3 – $12,Antibiotic
+Doxycycline IV,Doxycycline,Doxycycline hyclate,Vial,100 mg,$5 – $15,Antibiotic
+Fosfomycin IV,Fosfomycin,Fosfomycin sodium,Vial,2 g / 4 g,$20 – $60,Antibiotic
+Teicoplanin,Teicoplanin,Teicoplanin,Vial,200 mg / 400 mg,$15 – $45,Antibiotic
+Morphine Injection,Morphine,Morphine sulfate,Ampoule,10 mg / 15 mg,$2 – $10,Analgesic
+Fentanyl Injection,Fentanyl,Fentanyl citrate,Ampoule,50 mcg / 100 mcg,$3 – $15,Analgesic
+Pethidine / Meperidine,Pethidine,Pethidine hydrochloride,Ampoule,50 mg / 100 mg,$2 – $8,Analgesic
+Tramadol Injection,Tramadol,Tramadol hydrochloride,Ampoule,50 mg / 100 mg,$1 – $6,Analgesic
+Ketorolac Injection,Ketorolac,Ketorolac tromethamine,Ampoule / Vial,30 mg,$2 – $10,Analgesic
+Diclofenac Injection,Diclofenac,Diclofenac sodium,Ampoule,75 mg,$1 – $5,Analgesic
+Paracetamol IV (Perfalgan),Paracetamol,Paracetamol,Bottle / Bag,1 g / 100 mL,$3 – $12,Analgesic
+Acetaminophen IV,Acetaminophen,Acetaminophen,Bag,1 g,$3 – $12,Analgesic
+Hydromorphone Injection,Hydromorphone,Hydromorphone hydrochloride,Ampoule,2 mg / 4 mg,$5 – $20,Analgesic
+Oxycodone Injection,Oxycodone,Oxycodone hydrochloride,Ampoule,10 mg,$8 – $25,Analgesic
+Buprenorphine Injection,Buprenorphine,Buprenorphine,Ampoule,0.3 mg,$5 – $18,Analgesic
+Nalbuphine Injection,Nalbuphine,Nalbuphine hydrochloride,Ampoule,10 mg / 20 mg,$4 – $15,Analgesic
+Ketamine Injection,Ketamine,Ketamine hydrochloride,Vial,50 mg / 100 mg/mL,$5 – $20,Analgesic / Anesthetic
+Lidocaine Injection,Lidocaine,Lidocaine hydrochloride,Vial / Ampoule,1% / 2%,$1 – $6,Analgesic / Anesthetic
+Bupivacaine Injection,Bupivacaine,Bupivacaine hydrochloride,Vial,0.25% / 0.5%,$3 – $12,Analgesic / Anesthetic
+Solu-Medrol,Methylprednisolone,Methylprednisolone sodium succinate,Vial,40 mg / 125 mg / 500 mg,$5 – $25,Steroid
+Solu-Cortef,Hydrocortisone,Hydrocortisone sodium succinate,Vial,100 mg,$3 – $12,Steroid
+Dexamethasone Injection,Dexamethasone,Dexamethasone sodium phosphate,Ampoule / Vial,4 mg / 8 mg,$1 – $6,Steroid
+Betamethasone Injection,Betamethasone,Betamethasone,Ampoule,4 mg,$2 – $8,Steroid
+Triamcinolone Injection,Triamcinolone,Triamcinolone acetonide,Vial,40 mg / 80 mg,$5 – $20,Steroid
+Prednisolone Injection,Prednisolone,Prednisolone sodium phosphate,Ampoule,25 mg,$2 – $8,Steroid
+Vitamin B Complex Injection,Vitamin B Complex,"B1, B2, B3, B5, B6, B12",Ampoule,2–3 mL,$1 – $5,Vitamin
+Vitamin B12 Injection,Cyanocobalamin / Hydroxocobalamin,Cyanocobalamin,Ampoule,1000 mcg,$1 – $4,Vitamin
+Vitamin C Injection,Ascorbic acid,Ascorbic acid,Ampoule / Vial,500 mg / 1 g,$1 – $6,Vitamin
+Vitamin D Injection (Cholecalciferol),Cholecalciferol,Cholecalciferol,Ampoule,"300,000 IU / 600,000 IU",$5 – $20,Vitamin
+Vitamin K Injection,Phytomenadione,Phytomenadione (Vitamin K1),Ampoule,10 mg,$2 – $8,Vitamin
+Thiamine Injection,Thiamine,Thiamine hydrochloride,Ampoule,100 mg,$1 – $4,Vitamin
+Folic Acid Injection,Folic acid,Folic acid,Ampoule,15 mg,$1 – $5,Vitamin
+Iron Sucrose Injection (Venofer),Iron sucrose,Iron sucrose,Vial,100 mg / 5 mL,$15 – $50,Electrolyte / Iron
+Ferric Carboxymaltose (Ferinject),Ferric carboxymaltose,Ferric carboxymaltose,Vial,500 mg / 1000 mg,$40 – $120,Electrolyte / Iron
+Calcium Gluconate Injection,Calcium gluconate,Calcium gluconate,Ampoule / Vial,10%,$1 – $5,Electrolyte
+Magnesium Sulfate Injection,Magnesium sulfate,Magnesium sulfate,Ampoule / Vial,50%,$1 – $4,Electrolyte
+Potassium Chloride Injection,Potassium chloride,Potassium chloride,Ampoule / Vial,10–40 mEq,$1 – $5,Electrolyte
+Sodium Bicarbonate Injection,Sodium bicarbonate,Sodium bicarbonate,Ampoule / Vial,8.4%,$1 – $6,Electrolyte
+Normal Saline (0.9% NaCl),Sodium chloride,Sodium chloride 0.9%,Bottle / Bag,100 mL – 1000 mL,$1 – $4,Electrolyte / Fluid
+Dextrose 5% (D5W),Dextrose,Dextrose 5%,Bottle / Bag,100 mL – 1000 mL,$1 – $4,Electrolyte / Fluid
+Ringer's Lactate,Compound Sodium Lactate,"Sodium, Potassium, Calcium, Lactate",Bag,500 mL / 1000 mL,$1 – $5,Electrolyte / Fluid
+Human Insulin Regular,Insulin human (soluble),Insulin human,Vial,100 IU/mL (10 mL),$15 – $40,Insulin
+Insulin NPH (Isophane),Isophane insulin,Isophane insulin,Vial,100 IU/mL,$15 – $40,Insulin
+Insulin Glargine (Lantus),Insulin glargine,Insulin glargine,Vial / Pen,100 IU/mL,$40 – $120,Insulin
+Insulin Aspart (NovoRapid),Insulin aspart,Insulin aspart,Vial / Pen,100 IU/mL,$35 – $100,Insulin
+Insulin Lispro (Humalog),Insulin lispro,Insulin lispro,Vial / Pen,100 IU/mL,$35 – $100,Insulin
+Insulin Detemir (Levemir),Insulin detemir,Insulin detemir,Vial / Pen,100 IU/mL,$40 – $110,Insulin
+Insulin Degludec (Tresiba),Insulin degludec,Insulin degludec,Pen,100 IU/mL,$50 – $140,Insulin
+Premixed Insulin 70/30,Biphasic insulin,Insulin 70/30,Vial / Pen,100 IU/mL,$20 – $60,Insulin
+Tetanus Toxoid,Tetanus toxoid,Tetanus toxoid,Ampoule / Vial,0.5 mL,$2 – $10,Vaccine
+TT (Tetanus),Tetanus vaccine,Tetanus toxoid,Ampoule,0.5 mL,$2 – $8,Vaccine
+Hepatitis B Vaccine,Hepatitis B vaccine,HBsAg,Vial,1 mL / 0.5 mL,$5 – $25,Vaccine
+Hepatitis A Vaccine,Hepatitis A vaccine,Inactivated HAV,Vial / Syringe,1 mL,$20 – $60,Vaccine
+Influenza Vaccine (Seasonal),Influenza vaccine,Inactivated influenza virus,Syringe / Vial,0.5 mL,$10 – $30,Vaccine
+Pneumococcal Vaccine (PPV23),Pneumococcal polysaccharide,23-valent pneumococcal,Vial / Syringe,0.5 mL,$30 – $80,Vaccine
+Pneumococcal Conjugate (PCV13/PCV15),Pneumococcal conjugate,Pneumococcal conjugate,Syringe,0.5 mL,$50 – $150,Vaccine
+MMR Vaccine,"Measles, Mumps, Rubella",Live attenuated MMR,Vial,0.5 mL,$15 – $40,Vaccine
+Varicella Vaccine,Varicella vaccine,Live attenuated varicella,Vial,0.5 mL,$40 – $100,Vaccine
+Rabies Vaccine,Rabies vaccine,Inactivated rabies virus,Vial,1 mL,$20 – $60,Vaccine
+Typhoid Vaccine (Injectable),Typhoid vaccine,Vi polysaccharide,Syringe / Vial,0.5 mL,$10 – $30,Vaccine
+Meningococcal Vaccine,Meningococcal vaccine,Meningococcal conjugate/polysaccharide,Vial / Syringe,0.5 mL,$40 – $120,Vaccine
+HPV Vaccine (Gardasil),HPV vaccine,"HPV types 6,11,16,18 etc.",Syringe,0.5 mL,$80 – $200,Vaccine
+COVID-19 Vaccine (mRNA / Viral vector examples),COVID-19 vaccine,Spike protein / vector based,Vial,0.3–0.5 mL,$10 – $40,Vaccine
+BCG Vaccine,BCG,Bacillus Calmette-Guérin,Vial,0.05–0.1 mL,$2 – $10,Vaccine
+Yellow Fever Vaccine,Yellow fever vaccine,Live attenuated YF,Vial,0.5 mL,$20 – $60,Vaccine
+Polio Vaccine (IPV),Inactivated polio vaccine,Inactivated poliovirus,Vial / Syringe,0.5 mL,$5 – $20,Vaccine
+Cisplatin,Cisplatin,Cisplatin,Vial,10 mg / 50 mg / 100 mg,$15 – $60,Oncology
+Carboplatin,Carboplatin,Carboplatin,Vial,50 mg / 150 mg / 450 mg,$20 – $80,Oncology
+Oxaliplatin,Oxaliplatin,Oxaliplatin,Vial,50 mg / 100 mg,$40 – $150,Oncology
+Doxorubicin,Doxorubicin,Doxorubicin hydrochloride,Vial,10 mg / 50 mg,$20 – $80,Oncology
+Epirubicin,Epirubicin,Epirubicin hydrochloride,Vial,10 mg / 50 mg,$25 – $90,Oncology
+Paclitaxel,Paclitaxel,Paclitaxel,Vial,30 mg / 100 mg / 300 mg,$30 – $120,Oncology
+Docetaxel,Docetaxel,Docetaxel,Vial,20 mg / 80 mg / 160 mg,$40 – $150,Oncology
+Gemcitabine,Gemcitabine,Gemcitabine hydrochloride,Vial,200 mg / 1 g,$25 – $100,Oncology
+Cyclophosphamide Injection,Cyclophosphamide,Cyclophosphamide,Vial,200 mg / 500 mg / 1 g,$10 – $40,Oncology
+Ifosfamide,Ifosfamide,Ifosfamide,Vial,1 g / 2 g,$30 – $100,Oncology
+Vincristine,Vincristine,Vincristine sulfate,Vial,1 mg / 2 mg,$15 – $50,Oncology
+Vinblastine,Vinblastine,Vinblastine sulfate,Vial,10 mg,$15 – $50,Oncology
+Methotrexate Injection,Methotrexate,Methotrexate,Vial,50 mg / 100 mg / 1 g,$10 – $40,Oncology
+5-Fluorouracil (5-FU),Fluorouracil,Fluorouracil,Vial,250 mg / 500 mg / 5 g,$10 – $40,Oncology
+Cytarabine,Cytarabine,Cytarabine,Vial,100 mg / 500 mg / 1 g,$15 – $60,Oncology
+Bleomycin,Bleomycin,Bleomycin sulfate,Vial,15 units,$20 – $70,Oncology
+Etoposide,Etoposide,Etoposide,Vial,100 mg,$15 – $50,Oncology
+Irinotecan,Irinotecan,Irinotecan hydrochloride,Vial,40 mg / 100 mg,$40 – $150,Oncology
+Topotecan,Topotecan,Topotecan,Vial,4 mg,$50 – $180,Oncology
+Rituximab (Rituxan / MabThera),Rituximab,Rituximab,Vial,100 mg / 500 mg,$200 – $800,Oncology
+Trastuzumab (Herceptin),Trastuzumab,Trastuzumab,Vial,150 mg / 440 mg,$300 – $1200,Oncology
+Bevacizumab (Avastin),Bevacizumab,Bevacizumab,Vial,100 mg / 400 mg,$250 – $1000,Oncology
+Propofol,Propofol,Propofol,Vial,10 mg/mL (20 mL / 50 mL),$5 – $20,Anesthetic
+Thiopental / Thiopentone,Thiopental,Thiopental sodium,Vial,500 mg / 1 g,$5 – $18,Anesthetic
+Midazolam Injection,Midazolam,Midazolam,Ampoule / Vial,5 mg / 15 mg,$2 – $10,Sedative
+Diazepam Injection,Diazepam,Diazepam,Ampoule,10 mg,$1 – $5,Sedative
+Lorazepam Injection,Lorazepam,Lorazepam,Vial,2 mg / 4 mg,$3 – $12,Sedative
+Ketamine,Ketamine,Ketamine hydrochloride,Vial,50 mg/mL / 100 mg/mL,$5 – $20,Anesthetic
+Etomidate,Etomidate,Etomidate,Ampoule,20 mg,$8 – $25,Anesthetic
+Succinylcholine / Suxamethonium,Suxamethonium,Suxamethonium chloride,Ampoule,100 mg,$2 – $8,Muscle Relaxant
+Rocuronium,Rocuronium,Rocuronium bromide,Vial,50 mg / 100 mg,$8 – $30,Muscle Relaxant
+Vecuronium,Vecuronium,Vecuronium bromide,Vial,10 mg,$5 – $20,Muscle Relaxant
+Atracurium,Atracurium,Atracurium besylate,Ampoule,25 mg / 50 mg,$4 – $15,Muscle Relaxant
+Cisatracurium,Cisatracurium,Cisatracurium besylate,Vial,10 mg / 20 mg,$10 – $35,Muscle Relaxant
+Neostigmine,Neostigmine,Neostigmine methylsulfate,Ampoule,2.5 mg,$2 – $8,Reversal Agent
+Sugammadex (Bridion),Sugammadex,Sugammadex sodium,Vial,200 mg / 500 mg,$50 – $180,Reversal Agent
+Atropine Injection,Atropine,Atropine sulfate,Ampoule,0.5 mg / 1 mg,$1 – $4,Anticholinergic
+Glycopyrrolate Injection,Glycopyrrolate,Glycopyrrolate,Ampoule,0.2 mg,$2 – $8,Anticholinergic
+Heparin Injection,Heparin,Heparin sodium,Vial,5000 IU / 25000 IU,$3 – $15,Anticoagulant
+Enoxaparin (Clexane / Lovenox),Enoxaparin,Enoxaparin sodium,Pre-filled syringe,40 mg / 60 mg / 80 mg,$8 – $30,Anticoagulant
+Fondaparinux (Arixtra),Fondaparinux,Fondaparinux sodium,Pre-filled syringe,2.5 mg / 5 mg / 7.5 mg,$20 – $70,Anticoagulant
+Protamine Sulfate,Protamine,Protamine sulfate,Ampoule,50 mg,$5 – $20,Heparin Reversal
+Tranexamic Acid Injection,Tranexamic acid,Tranexamic acid,Ampoule,500 mg / 1 g,$2 – $10,Antifibrinolytic
+Aminocaproic Acid,Aminocaproic acid,Aminocaproic acid,Vial,5 g,$10 – $30,Antifibrinolytic
+Ondansetron Injection,Ondansetron,Ondansetron,Ampoule,4 mg / 8 mg,$2 – $10,Antiemetic
+Granisetron Injection,Granisetron,Granisetron,Ampoule,1 mg / 3 mg,$5 – $20,Antiemetic
+Metoclopramide Injection,Metoclopramide,Metoclopramide,Ampoule,10 mg,$1 – $4,Antiemetic
+Domperidone Injection,Domperidone,Domperidone,Ampoule,10 mg,$1 – $5,Antiemetic
+Ranitidine Injection,Ranitidine,Ranitidine,Ampoule,50 mg,$1 – $5,Antacid / H2 blocker
+Pantoprazole IV,Pantoprazole,Pantoprazole,Vial,40 mg,$3 – $12,PPI
+Omeprazole IV,Omeprazole,Omeprazole,Vial,40 mg,$3 – $12,PPI
+Esomeprazole IV,Esomeprazole,Esomeprazole,Vial,40 mg,$5 – $18,PPI
+Adrenaline / Epinephrine,Epinephrine,Epinephrine,Ampoule,1 mg/mL,$1 – $6,Emergency
+Noradrenaline / Norepinephrine,Norepinephrine,Norepinephrine,Ampoule / Vial,1 mg/mL / 4 mg,$5 – $20,Vasopressor
+Dopamine Injection,Dopamine,Dopamine hydrochloride,Vial,200 mg / 400 mg,$3 – $12,Vasopressor
+Dobutamine Injection,Dobutamine,Dobutamine hydrochloride,Vial,250 mg,$5 – $20,Inotrope
+Phenylephrine Injection,Phenylephrine,Phenylephrine hydrochloride,Ampoule,10 mg,$3 – $12,Vasopressor
+Vasopressin Injection,Vasopressin,Vasopressin,Ampoule,20 units,$10 – $40,Vasopressor
+Furosemide Injection,Furosemide,Furosemide,Ampoule,20 mg / 40 mg,$1 – $5,Diuretic
+Mannitol Injection,Mannitol,Mannitol,Bottle,20% / 100–500 mL,$3 – $12,Osmotic Diuretic
+Aminophylline Injection,Aminophylline,Aminophylline,Ampoule,250 mg,$2 – $8,Bronchodilator
+Naloxone Injection,Naloxone,Naloxone hydrochloride,Ampoule,0.4 mg / 2 mg,$5 – $20,Opioid Antagonist
+Flumazenil Injection,Flumazenil,Flumazenil,Ampoule,0.5 mg / 1 mg,$15 – $50,Benzodiazepine Antagonist
+Phytonadione (Vitamin K),Phytonadione,Phytonadione,Ampoule,10 mg,$2 – $8,Vitamin
+Calcium Chloride Injection,Calcium chloride,Calcium chloride,Ampoule / Syringe,10%,$1 – $5,Electrolyte
+Sodium Chloride 3% (Hypertonic),Sodium chloride,Sodium chloride 3%,Bag,100–500 mL,$3 – $10,Electrolyte
+Albumin 5% / 20%,Human albumin,Human albumin,Bottle,5% or 20% (50–100 mL),$30 – $120,Blood Product
+Immunoglobulin IV (IVIG),Human immunoglobulin,Human IgG,Bottle,2.5 g / 5 g / 10 g,$100 – $400,Immunoglobulin
+Anti-D Immunoglobulin,Rho(D) immune globulin,Anti-D Ig,Syringe / Vial,300 mcg,$40 – $120,Immunoglobulin
+Tetanus Immunoglobulin,Tetanus immunoglobulin,Tetanus Ig,Vial,250 IU / 500 IU,$15 – $50,Immunoglobulin
+Rabies Immunoglobulin,Rabies immunoglobulin,Rabies Ig,Vial,300 IU / 1500 IU,$50 – $200,Immunoglobulin
+Promethazine Injection,Promethazine,Promethazine hydrochloride,Ampoule,25 mg / 50 mg,$1 – $5,Antihistamine / Antiemetic
+Chlorpheniramine Injection,Chlorpheniramine,Chlorpheniramine maleate,Ampoule,10 mg,$1 – $4,Antihistamine
+Hydroxyzine Injection,Hydroxyzine,Hydroxyzine hydrochloride,Ampoule,25 mg / 50 mg,$2 – $8,Antihistamine / Anxiolytic
+Haloperidol Injection,Haloperidol,Haloperidol,Ampoule,5 mg,$2 – $8,Antipsychotic
+Olanzapine Injection,Olanzapine,Olanzapine,Vial,10 mg,$15 – $50,Antipsychotic
+Ziprasidone Injection,Ziprasidone,Ziprasidone mesylate,Vial,20 mg,$20 – $60,Antipsychotic
+Phenytoin Injection,Phenytoin,Phenytoin sodium,Ampoule / Vial,250 mg / 50 mg/mL,$3 – $12,Antiepileptic
+Levetiracetam IV,Levetiracetam,Levetiracetam,Vial,500 mg / 1000 mg,$10 – $40,Antiepileptic
+Valproate IV,Valproate,Sodium valproate,Vial,400 mg / 1000 mg,$8 – $30,Antiepileptic
+Phenobarbital Injection,Phenobarbital,Phenobarbital sodium,Ampoule,200 mg,$3 – $12,Antiepileptic
+Salbutamol / Albuterol Injection,Salbutamol,Salbutamol sulfate,Ampoule,0.5 mg,$2 – $8,Bronchodilator
+Methylprednisolone (already listed),Methylprednisolone,Methylprednisolone,Vial,40–500 mg,$5 – $25,Steroid
