@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function InventoryAdminPage() {
   await requireAdmin();
-  const products = await loadProductsFromCsv();
+  const products = (await loadProductsFromCsv()) as any[];
 
   return (
     <div className="p-8 max-w-7xl mx-auto">
@@ -41,7 +41,7 @@ export default async function InventoryAdminPage() {
                   <td className="px-6 py-4 text-manifest-600">{product.inn}</td>
                   <td className="px-6 py-4">
                     <span className="px-2.5 py-1 text-xs font-medium bg-slate-100 text-slate-800 rounded-full capitalize">
-                      {product.category.replace("-", " ")}
+                      {product.category?.replace("-", " ")}
                     </span>
                   </td>
                   <td className="px-6 py-4 text-xs text-manifest-500">{product.presentation}</td>
