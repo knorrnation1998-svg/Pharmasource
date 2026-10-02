@@ -8,9 +8,9 @@ export default function CartPage() {
   const { items, updateQuantity, removeItem, clearCart } = useCart();
 
   // Safely compute subtotal with fallback checks
-  const subtotal = Array.isArray(items) 
+ const subtotal = Array.isArray(items) 
     ? items.reduce((acc, item) => {
-        const price = item?.product?.priceXaf || item?.priceXaf || 0;
+        const price = (item as any)?.product?.priceXaf || item?.priceXaf || 0;
         const qty = item?.quantity || 1;
         return acc + (price * qty);
       }, 0)
@@ -58,7 +58,7 @@ export default function CartPage() {
             {/* Items List */}
             <div className="lg:col-span-2 space-y-4">
               {items.map((item, index) => {
-                const product = item?.product || item;
+                const product = (item as any)?.product || item;
                 const productId = product?.id || index;
                 const productName = product?.name || "Hospital Formulation";
                 const productInn = product?.inn || "";

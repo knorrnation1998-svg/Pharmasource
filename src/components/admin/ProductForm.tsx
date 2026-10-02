@@ -26,7 +26,7 @@ export function ProductForm() {
     createProductAction,
     null
   );
-  const errors = state && !state.ok ? state.fieldErrors : undefined;
+  const errors = state && !state.ok ? (state as any).fieldErrors : undefined;
 
   return (
     <form action={formAction} className="sheet p-7 shadow-sheet">

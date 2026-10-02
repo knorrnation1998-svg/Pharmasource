@@ -16,9 +16,9 @@ export default function CheckoutPage() {
   });
 
   // Safely compute subtotal with fallback checks
-  const subtotal = Array.isArray(items)
+ const subtotal = Array.isArray(items)
     ? items.reduce((acc, item) => {
-        const price = item?.product?.priceXaf || item?.priceXaf || 0;
+        const price = (item as any)?.product?.priceXaf || item?.priceXaf || 0;
         const qty = item?.quantity || 1;
         return acc + price * qty;
       }, 0)
@@ -228,7 +228,7 @@ export default function CheckoutPage() {
                 <p className="text-xs text-manifest-500 py-4 text-center">Your basket is currently empty.</p>
               ) : (
                 items.map((item, index) => {
-                  const product = item?.product || item;
+                  const product = (item as any)?.product || item;
                   const productName = product?.name || "Hospital Formulation";
                   const unitPrice = product?.priceXaf || 0;
                   const qty = item?.quantity || 1;

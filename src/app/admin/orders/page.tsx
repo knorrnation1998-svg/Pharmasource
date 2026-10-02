@@ -1,7 +1,7 @@
 import { repository } from "@/lib/repository";
 import { requireAdmin } from "@/lib/auth";
 import { formatXaf } from "@/lib/utils";
-import type { OrderStatus } from "@/lib/types";
+import type { Order, OrderStatus } from "@/lib/types";
 import { updateOrderStatusAction } from "@/server/actions/orders";
 
 export const dynamic = "force-dynamic";
@@ -28,7 +28,8 @@ const ALL_STATUSES: OrderStatus[] = [
 
 export default async function OrdersPage() {
   await requireAdmin();
-  const orders = await repository.listOrders();
+  // Explicitly type the fetched array as Order[]
+  const orders: Order[] = await repository.listOrders();
 
   return (
     <div>
@@ -53,7 +54,7 @@ export default async function OrdersPage() {
                 </td>
               </tr>
             )}
-            {orders.map((order) => (
+            {orders.map((order: Order) => (
               <tr key={order.id} className="border-t border-manifest-100">
                 <td className="px-5 py-4 font-code text-[11px] text-manifest-600">
                   {order.reference}

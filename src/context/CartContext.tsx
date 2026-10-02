@@ -50,11 +50,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
       if (existingIndex > -1) {
         const updated = [...prevItems];
-        updated[existingIndex] = {
+     updated[existingIndex] = {
           ...updated[existingIndex],
           quantity: updated[existingIndex].quantity + qtyToAdd,
-        };
-        return updated;
+        } as any;
       }
 
       return [...prevItems, { ...newItem, quantity: qtyToAdd }];

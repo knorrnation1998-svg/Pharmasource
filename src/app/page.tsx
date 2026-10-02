@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { repository } from "@/lib/repository";
 import { formatXaf } from "@/lib/utils";
+import type { Product } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
@@ -77,14 +78,14 @@ export default async function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {featuredProducts.map((product) => (
+          {featuredProducts.map((product: Product) => (
             <div key={product.id} className="bg-white p-5 rounded-xl border border-manifest-100 shadow-sm flex flex-col justify-between">
               <div>
                 <span className="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-800 text-[11px] font-semibold rounded-full border border-emerald-200 mb-3">
                   In Stock
                 </span>
-                <h3 className="font-semibold text-manifest-900">{product.name}</h3>
-                <p className="text-xs text-manifest-500 mt-1">{product.inn} &mdash; {product.unit}</p>
+                <h3 className="font-semibold text-manifest-900">{(product as any).name || product.brandName || product.inn}</h3>
+                <p className="text-xs text-manifest-500 mt-1">{product.inn} &mdash; {product.presentation || (product as any).unit || "Vial"}</p>
               </div>
               <div className="mt-6 pt-4 border-t border-manifest-100 flex items-center justify-between">
                 <span className="font-bold text-manifest-900">{formatXaf(product.priceXaf)}</span>

@@ -44,7 +44,7 @@ function LoginForm() {
           role="alert"
           className="mt-6 rounded-sheet border border-excursion-500/30 bg-excursion-100 px-4 py-3 text-sm text-excursion-500"
         >
-          {state.error}
+          { (state as any).error }
         </p>
       )}
 

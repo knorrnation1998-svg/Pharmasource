@@ -7,14 +7,16 @@ import Link from "next/link";
 
 interface Product {
   id: string;
-  name: string;
+  name?: string;
+  brandName?: string;
   inn: string;
   category: string;
   origin: string;
   coldChain: boolean;
   leadTimeDays: number;
   priceXaf: number;
-  unit: string;
+  unit?: string;
+  presentation?: string;
 }
 
 export default function CatalogClientView({ initialProducts }: { initialProducts?: Product[] }) {
@@ -30,8 +32,9 @@ export default function CatalogClientView({ initialProducts }: { initialProducts
   };
 
   const filteredProducts = safeProducts.filter((p) => {
+    const productName = p.name || p.brandName || "";
     const matchesSearch = 
-      (p.name && p.name.toLowerCase().includes(search.toLowerCase())) || 
+      productName.toLowerCase().includes(search.toLowerCase()) || 
       (p.inn && p.inn.toLowerCase().includes(search.toLowerCase()));
     const matchesCat = selectedCategory === "all" || (p.category && p.category.toLowerCase() === selectedCategory.toLowerCase());
     return matchesSearch && matchesCat;
@@ -74,9 +77,9 @@ export default function CatalogClientView({ initialProducts }: { initialProducts
               className="px-4 py-2.5 rounded-xl border border-manifest-200 text-sm bg-white text-manifest-800 focus:outline-none"
             >
               <option value="all">All categories</option>
-              <option value="Injectable">Injectables</option>
-              <option value="Antibiotic">Antibiotics</option>
-              <option value="Biologic">Biologics</option>
+              <option value="injectable">Injectables</option>
+              <option value="antibiotic">Antibiotics</option>
+              <option value="biologic">Biologics</option>
             </select>
           </div>
         </div>
@@ -105,11 +108,14 @@ export default function CatalogClientView({ initialProducts }: { initialProducts
                 ) : (
                   filteredProducts.map((product) => {
                     const currentQty = quantities[product.id] || 1;
+                    const displayName = product.name || product.brandName || product.inn;
+                    const displayUnit = product.presentation || product.unit || "Vial";
+
                     return (
                       <tr key={product.id} className="hover:bg-manifest-50/40 transition-colors">
                         <td className="py-4 px-6">
-                          <div className="font-bold text-manifest-900 text-base">{product.name}</div>
-                          <div className="text-xs text-manifest-500 mt-0.5">{product.inn} &bull; {product.unit}</div>
+                          <div className="font-bold text-manifest-900 text-base">{displayName}</div>
+                          <div className="text-xs text-manifest-500 mt-0.5">{product.inn} &bull; {displayUnit}</div>
                           <div className="mt-2 flex gap-2">
                             <span className="inline-block px-2 py-0.5 bg-emerald-50 text-emerald-800 text-[10px] font-semibold rounded-full border border-emerald-200">
                               In stock, Douala
@@ -166,8 +172,8 @@ export default function CatalogClientView({ initialProducts }: { initialProducts
 
                             <button
                               onClick={() => {
-                                addItem(product, currentQty);
-                                alert(`Added ${currentQty} unit(s) of ${product.name} to your basket.`);
+                                addItem({ ...product, quantity: currentQty } as any);
+                                alert(`Added ${currentQty} unit(s) to your basket.`);
                               }}
                               className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-4 py-2 rounded-lg text-xs shadow-sm transition-all whitespace-nowrap"
                             >
