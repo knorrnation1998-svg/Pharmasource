@@ -11,6 +11,7 @@ const db = createClient({
 
 // Ensure database tables exist and seed from CSV on first run
 async function ensureSeeded() {
+  // 1. Products / Injectables table
   await db.execute(`
     CREATE TABLE IF NOT EXISTS products (
       id TEXT PRIMARY KEY,
@@ -34,6 +35,7 @@ async function ensureSeeded() {
     )
   `);
 
+  // 2. Orders & Transactions table (supports manual backdating)
   await db.execute(`
     CREATE TABLE IF NOT EXISTS orders (
       id TEXT PRIMARY KEY,
@@ -45,6 +47,41 @@ async function ensureSeeded() {
       created_at TEXT,
       items TEXT,
       payment_ref TEXT
+    )
+  `);
+
+  // 3. Admin Users & Authentication table
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS admin_users (
+      id TEXT PRIMARY KEY,
+      username TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      role TEXT DEFAULT 'admin',
+      created_at TEXT DEFAULT CURRENT_TIMESTAMP
+    )
+  `);
+
+  // 4. Customers & Doctors table
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS customers (
+      id TEXT PRIMARY KEY,
+      full_name TEXT NOT NULL,
+      phone_number TEXT,
+      hospital_or_facility TEXT NOT NULL,
+      address TEXT,
+      created_at TEXT DEFAULT CURRENT_TIMESTAMP
+    )
+  `);
+
+  // 5. Dispatch & Logistics Locations table
+  await db.execute(`
+    CREATE TABLE IF NOT EXISTS dispatch_locations (
+      id TEXT PRIMARY KEY,
+      location_name TEXT NOT NULL,
+      origin TEXT,
+      destination TEXT,
+      notes TEXT,
+      created_at TEXT DEFAULT CURRENT_TIMESTAMP
     )
   `);
 
