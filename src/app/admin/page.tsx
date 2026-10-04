@@ -3,12 +3,12 @@ import { requireAdmin } from "@/lib/auth";
 import { InventoryTable } from "@/components/admin/InventoryTable";
 import { ProductForm } from "@/components/admin/ProductForm";
 import AdminOrderForm from "@/components/AdminOrderForm";
+import AdminOrdersList from "@/components/admin/AdminOrdersList"; // Import the new list
 
 // Inventory is mutable on every request — never cache this page.
 export const dynamic = "force-dynamic";
 
 export default async function AdminPage() {
-  // Middleware already gated the route; this re-asserts at the data boundary.
   await requireAdmin();
   const products = await repository.listProducts();
 
@@ -26,6 +26,9 @@ export default async function AdminPage() {
 
       <InventoryTable initialProducts={products} />
       
+      {/* Displays the saved orders table including the backdated emergency record */}
+      <AdminOrdersList />
+
       <div className="border-t border-gray-200 pt-8">
         <AdminOrderForm />
       </div>
