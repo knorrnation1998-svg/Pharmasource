@@ -85,6 +85,22 @@ async function ensureSeeded() {
     )
   `);
 
+  // --- HARDCODED EMERGENCY RECORD INSERTION ---
+  await db.execute({
+    sql: `INSERT OR IGNORE INTO orders (id, reference, customer_name, hospital_name, status, total_xaf, created_at, items, payment_ref) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    args: [
+      'ord-esther-01',
+      'REF-2026-0915',
+      'Dr Esther Agbama',
+      'Ayo Memorial Clinic, Lagos, Nigeria',
+      'completed',
+      50000,
+      '2026-09-15T10:00:00.000Z',
+      JSON.stringify([{ name: 'C Neuro', quantity: 5, priceXaf: 10000 }]),
+      'MANUAL_BACKDATE'
+    ]
+  });
+
   // Check if products table is empty, if so, seed from CSV
   const res = await db.execute("SELECT COUNT(*) as count FROM products");
   const count = Number(res.rows[0]?.count || 0);
