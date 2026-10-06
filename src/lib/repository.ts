@@ -40,6 +40,10 @@ export const repository = {
     if (error) throw new Error(error.message);
   },
 
+  async loadProductsFromCsv(csvText: string) {
+    console.log("CSV import requested");
+  },
+
   async listOrders() {
     const { data, error } = await supabase
       .from('orders')
